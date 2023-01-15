@@ -14,15 +14,15 @@ public class Juegos extends VideoJuegos{ //La clase padre la denominaremos Juego
     }
     //Creamos los metodos
     public void Datos_Juegos(){
-        System.out.println("Nombre del Juego: "+getTitulo()+"\n"+"Nombre la consola: "+getConsola()+"\n"+"Numero de Jugadores: "+getCantJugadores()
-                +"\n"+"Categoria: "+getCategoria());
+        System.out.println("\u001B[31mNombre del Juego: "+getTitulo()+"\n"+"\u001B[36mNombre la consola: "+getConsola()+"\n"+"\u001B[33mNumero de Jugadores: "+getCantJugadores()
+                +"\n"+"\u001B[32mCategoria: "+getCategoria());
     }
     public void Ingreso_Datos(){
         System.out.println();
-        System.out.println("-^-^-^-^-^-^-^-^-^-^-^-^-^^-^-^-^-^-^-^-^-^-^-^-^-^-^-^");
-        System.out.println("Ingrese el Nombre del Personaje: "+nom_peronaje);
-        System.out.println("Escriba el Nivel de dificultad: "+nivel_juego);
-        System.out.println("-^-^-^-^-^-^-^-^-^-^-^-^-^^-^-^-^-^-^-^-^-^-^-^-^-^-^-^");
+        System.out.println("\u001B[32m-^-^-^-^-^-^-^-^-^-^-^-^-^^-^-^-^-^-^-^-^-^-^-^-^-^-^-^");
+        System.out.println("\u001B[36mIngrese el Nombre del Personaje: "+nom_peronaje);
+        System.out.println("\u001B[35mEscriba el Nivel de dificultad: "+nivel_juego);
+        System.out.println("\u001B[37m-^-^-^-^-^-^-^-^-^-^-^-^-^^-^-^-^-^-^-^-^-^-^-^-^-^-^-^");
         System.out.println();
     }
 

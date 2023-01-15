@@ -14,13 +14,13 @@ public class BandaMusica extends GruposMusicales {//La clase padre la denominare
     }
     //Creamos los metodos
     public void Datos_Banda(){
-        System.out.println("Nombre del Grupo: "+getNombre_grupo()+"\n"+"Genero del Grupo: "+getTipo_musica()+"\n"
-                +"Nombre de los Integrantes: \n"+getNom_integrantes()+"\n"+"Nombre del Album: "+getAlbunes());
+        System.out.println("\u001B[35mNombre del Grupo: "+getNombre_grupo()+"\n"+"\u001B[35mGenero del Grupo: "+getTipo_musica()+"\n"
+                +"\t\u001B[32mNombre de los Integrantes \n"+getNom_integrantes()+"\n"+"\u001B[32mNombre del Album: "+getAlbunes());
     }
     public void Ingreso_Datos(){
-        System.out.println("El Numero de Integrantes: "+num_Inte+"\n"+"Nombre del Lider: "+Lider_Ban);
+        System.out.println("\u001B[34mEl Numero de Integrantes: "+num_Inte+"\n"+"\u001B[31mNombre del Lider: "+Lider_Ban);
         System.out.println();
-        System.out.println("-----------------------------------------------------------------------------------");
+        System.out.println("\u001B[32m-----------------------------------------------------------------------------------");
     }
 
 }

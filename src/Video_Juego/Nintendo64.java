@@ -14,7 +14,8 @@ public class Nintendo64 extends Juegos {//Creamos la clase hija a la cual denomi
     }
     //Generamos los metodos
     public void Jugabilidad(){
-        System.out.println("Ingrese el Numero de Vidas: "+numero_vidas);
+
+        System.out.println("\033[35mIngrese el Numero de Vidas: "+numero_vidas);
     }
 
 }

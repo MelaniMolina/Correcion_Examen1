@@ -15,7 +15,7 @@ public class Main {
                 String menu = Menu().toUpperCase();
                 switch (menu) {
                     case "1":
-                        System.out.println("");
+                        System.out.println("\n\t\u001B[35m<<-- Video Juegos -->>\n");
             VideoJuegos[] v1 = new VideoJuegos[4];
             v1[0] = new Nintendo64("Mario Kart", "Famicom", 3, "Carreras", "Luigui", 2, 3);
             v1[1] = new Nintendo64("Mario Party", "GAMEQ", 4, "Juego de Mesa", "Peach", 5, 1);
@@ -26,7 +26,7 @@ public class Main {
                         }
             break;
                     case "2":
-                        System.out.println("");
+                        System.out.println("\n\t\u001B[31m<<-- Grupos Musicales o Artistas -->>\n");
             GruposMusicales[] g1 = new GruposMusicales[4];
             g1[0] = new GreenDays("Banda 24 de Mayo", "Nacional", ">>Carlosama >>Cumbal ", "La Mama de las Bandas", 6, "Carlosama", 2015, 20, "Ecuador");
             g1[1] = new GreenDays("Panda", "Rock", ">>Ricardo >>Jorge ", "Narcista", 4, "Jose Medardo", 2014, 8, "Ecuador");
@@ -37,7 +37,7 @@ public class Main {
                         }
             break;
                     case "3":
-                        System.out.println("");
+                        System.out.println("\n\t\u001B[32m<<-- Comida a Nivel Mundial -->>\n");
             ComidaNivelMundial[] c1 = new ComidaNivelMundial[4];
             c1[0] = new Comida("Encebollado", "Ecuador", 2.75, "Marisqueria", "Pescado ", "Yuca", "Cebolla", "Pimienta ", "Verde", "1:30 hora");
             c1[1] = new Comida("Pasta", "Italia", 5.00, "Nonna's", "Tallarin", "Tomate", "Cebollin", "Camaron", "Hierbas", "30:00 minutos");
